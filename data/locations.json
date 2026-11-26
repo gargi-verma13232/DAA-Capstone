@@ -1,0 +1,31 @@
+{
+  "depot": "Depot",
+  "locations": [
+    "Depot",
+    "Sector-14",
+    "Cyber-Hub",
+    "Sohna-Road",
+    "MG-Road",
+    "Golf-Course-Road",
+    "Udyog-Vihar",
+    "Sector-56",
+    "Palam-Vihar",
+    "Remote-Outpost"
+  ],
+  "roads": [
+    ["Depot", "Sector-14", 4],
+    ["Depot", "MG-Road", 6],
+    ["Depot", "Palam-Vihar", 9],
+    ["Sector-14", "MG-Road", 3],
+    ["Sector-14", "Cyber-Hub", 7],
+    ["Sector-14", "Sohna-Road", 8],
+    ["MG-Road", "Cyber-Hub", 4],
+    ["MG-Road", "Golf-Course-Road", 5],
+    ["Cyber-Hub", "Udyog-Vihar", 3],
+    ["Cyber-Hub", "Palam-Vihar", 6],
+    ["Golf-Course-Road", "Sector-56", 4],
+    ["Golf-Course-Road", "Sohna-Road", 6],
+    ["Sohna-Road", "Sector-56", 5],
+    ["Udyog-Vihar", "Palam-Vihar", 5]
+  ]
+}

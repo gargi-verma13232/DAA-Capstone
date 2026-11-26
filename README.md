@@ -31,6 +31,8 @@ Mini-Courier-Planner/
 │   ├── dijkstra.py
 │   └── tsp.py
 ├── data/
+│   ├── parcels.json
+│   ├── locations.json
 │   └── sample_data.py
 ├── performance/
 │   └── performance_analysis.py
@@ -60,7 +62,7 @@ Mini-Courier-Planner/
 
 When running **Complete Courier Plan** (Menu Option `6`):
 
-1. Load sample parcel data (`10` parcels, vehicle capacity `25 kg`) and location graph (`10` locations, `14` weighted roads) from `data/sample_data.py`.
+1. Load sample parcel data (`10` parcels, vehicle capacity `25 kg`) and location graph (`10` locations, `14` weighted roads) from `data/parcels.json` and `data/locations.json` via `data/sample_data.py`.
 2. Sort parcels using `merge_sort_parcels` by priority descending, then deadline ascending.
 3. Apply `knapsack_01` to select the maximum-priority subset of parcels with total weight $\le 25\text{ kg}$.
 4. Extract unique delivery locations from the selected parcels (`extract_delivery_locations`).

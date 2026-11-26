@@ -1,0 +1,15 @@
+{
+  "vehicle_capacity": 25,
+  "parcels": [
+    {"id": "P101", "weight": 6, "priority": 85, "deadline": 2, "location": "Sector-14"},
+    {"id": "P102", "weight": 4, "priority": 60, "deadline": 5, "location": "Cyber-Hub"},
+    {"id": "P103", "weight": 7, "priority": 90, "deadline": 1, "location": "Sohna-Road"},
+    {"id": "P104", "weight": 5, "priority": 50, "deadline": 6, "location": "MG-Road"},
+    {"id": "P105", "weight": 8, "priority": 95, "deadline": 2, "location": "Golf-Course-Road"},
+    {"id": "P106", "weight": 3, "priority": 40, "deadline": 8, "location": "Udyog-Vihar"},
+    {"id": "P107", "weight": 9, "priority": 75, "deadline": 4, "location": "Sector-56"},
+    {"id": "P108", "weight": 2, "priority": 55, "deadline": 3, "location": "Cyber-Hub"},
+    {"id": "P109", "weight": 5, "priority": 70, "deadline": 4, "location": "Palam-Vihar"},
+    {"id": "P110", "weight": 4, "priority": 65, "deadline": 5, "location": "Sector-14"}
+  ]
+}
